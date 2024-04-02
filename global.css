@@ -1,0 +1,40 @@
+:root {
+    --btn-color: linear-gradient(90deg, #3d9ec5 0, #cf67be 67%);
+    --black-color: #000000;
+    --line-height:3rem;
+    /*btn*/
+    --btn-radius: 5px;
+    --btn-box-shadow: 0 10px 15px 0 rgba(233, 30, 99, .15);
+    --btn-padding: 0.55rem 2rem;
+    --btn2-padding:1rem 2rem;
+    --btn-font-size: 18px;
+    /*home*/
+    --padding:2rem 3.5rem;
+    --h1-size: 70px;
+    --h1-weight: 700;
+    --h1-color: #222;
+    --h3-size:24px;
+    /*logo grid*/
+    --logo-grid-template:auto auto auto auto auto auto auto;
+    /*box*/
+    --box-border:1px solid #d4f0ff;
+    --box-radius:8px;
+    --box-shadow:0 3.4px 2.7px -30px rgb(0 0 0/6%), 0 8.2px 8.9px -30px rgb(0 0 0/7%), 0 25px 40px -30px rgba(0,0,0,.2);
+    --box-padding:25px 10px;
+}
+
+@media screen and (max-widt:600px) {
+    :root{
+        --h1-size: 56px;
+}
+}
+@media screen and (max-width:450px) {
+    :root{
+        --h1-size:50px;
+    }
+}
+@media screen and (max-width:370px) {
+    :root{
+        --h1-size: 45px;
+}  
+}

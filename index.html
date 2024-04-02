@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body><a href="https://web.whatsapp.com/">
+    <img src="image/whatsapp-image.png" style="position: fixed;bottom: 1rem; left: 1rem;z-index: 20;"></a>
+    <div class="header">
+        <div class="nav">
+            <img src="image/nexgeno_logo.png" alt="">
+            <ul>
+                <li><a href="#service">Services<i class="fa fa-angle-down"></i> </a></li>
+                <li><a href="#blog">Blogs<i class="fa fa-angle-down"></i> </a></li>
+                <li><a href="#Testinomial">Testinomial<i class="fa fa-angle-down"></i> </a></li>
+                <li><a href="#our_work">Our Work<i class="fa fa-angle-down"></i> </a></li>
+                <li><a href="#contact">Company<i class="fa fa-angle-down"></i> </a></li>
+            </ul>
+            <button><a href="">Let's Talk</a></button>
+            <div class="sidebar">
+                <i class="fa-solid fa-bars" onclick="sidebar()"></i>
+                <div class="side-nav" id="sidenav">
+                    <ul>
+                        <li><a href="#service">Services </a></li>
+                        <li><a href="#blog">Blogs </a></li>
+                        <li><a href="#Testinomial">Testinomial </a></li>
+                        <li><a href="#our_work">Our Work </a></li>
+                        <li><a href="#contact">Company </a></li>
+                    </ul>
+                    <button style="margin-left: 2rem;"><a href="">Let's Talk</a></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="home">
+        <div class="video" id="myVideo">
+            <video autoplay muted>
+                <source src="image/video.mp4"
+                    type="video/mp4">
+                <source src="image/video.mp4"
+                    type="video/ogg">
+            </video>
+            <div style="position: relative; z-index: 1;">
+                <h1>Innovative web solutions for modern businesses</h1>
+                <h3>Connecting businesses to the digital world</h3>
+                <button><a href="">Get Started</a></button>
+            </div>
+        </div>
+        <div class="about" id="our_work" data-aos="fade-up" data-aos-duration="3000">
+            <div class="img">
+                <img src="image/about.jpeg" alt="">
+            </div>
+            <div class="content">
+                <span>WE ARE NEXGENO TECHNOLOGY</span>
+                <h2>Offshore Software Development & IT Consulting Company</h2>
+                <p>At Nexgeno Technology Pvt Ltd, we are dedicated to providing professional web designing and
+                    development services to businesses of all sizes. Founded in 2022, our company has quickly
+                    established itself as a leading provider of web solutions. </p>
+                <p>NexGeno Technology: Empowering Innovation, Building Solutions. Transform your business with our web
+                    and mobile application development, digital transformation, and cloud solutions, all backed by our
+                    11 years of experience in the industry. Our innovative ideas and consulting expertise, combined with
+                    our commitment to empowering developers, make us the partner you need to succeed. </p>
+                <div>
+                    <button><a href="">Get Started</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="image/muncipal_logo.png" alt="">
+            <img src="image/geci_logoes.png" alt="">
+            <img src="image/lijjat_logo.png" alt="">
+            <img src="image/lehnaar_logo.png" alt="">
+            <img src="image/mda_logo.png" alt="">
+            <img src="image/euro_detnal_logo.png" alt="">
+        </div>
+        <div class="service" id="service" data-aos="fade-up" data-aos-duration="3000">
+            <span># SERVICES WE ARE PROVIDED</span>
+            <h2>Our Design Development Services</h2>
+            <div class="container">
+                <div class="div-for-btn">
+                    <div class="box" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="img">
+                            <img src="image/service-icon-1.png">
+                        </div>
+                        <h4>Application development</h4>
+                        <p>Application development refers to the process of designing, creating, and testing software
+                            applications for use on various platforms such as desktop computers, mobile devices, and
+                            the...
+                        </p>
+                        <p><a href="">Learn more <i class="fa fa-arrow-right"></i></a></p>
+
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="img">
+                            <img src="image/service-icon-2.png">
+                        </div>
+                        <h4>Application development</h4>
+                        <p>Application development refers to the process of designing, creating, and testing software
+                            applications for use on various platforms such as desktop computers, mobile devices, and
+                            the...
+                        </p>
+                        <p><a href="">Learn more <i class="fa fa-arrow-right"></i></a></p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="img">
+                            <img src="image/service-icon-3.png">
+                        </div>
+                        <h4>Application development</h4>
+                        <p>Application development refers to the process of designing, creating, and testing software
+                            applications for use on various platforms such as desktop computers, mobile devices, and
+                            the...
+                        </p>
+                        <p><a href="">Learn more <i class="fa fa-arrow-right"></i></a></p>
+
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="img">
+                            <img src="image/service-icon-4.png">
+                        </div>
+                        <h4>Application development</h4>
+                        <p>Application development refers to the process of designing, creating, and testing software
+                            applications for use on various platforms such as desktop computers, mobile devices, and
+                            the...
+                        </p>
+                        <p><a href="">Learn more <i class="fa fa-arrow-right"></i></a></p>
+
+                    </div>
+
+                </div>
+                <button><a href="">View All Services <i class="fa fa-arrow-right"></i></a></button>
+            </div>
+
+        </div>
+        <div class="agency" data-aos="fade-up" data-aos-duration="3000">
+            <h2>Our Agency in Numbers</h2>
+            <div class="agency-counter">
+                <div class="agencyno">
+                    <h1>4,000 +</h1>
+                    <h3>Total Projects Completed</h3>
+                </div>
+                <div class="agencyno">
+                    <h1>1,000 +</h1>
+                    <h3>Active Clients</h3>
+                </div>
+                <div class="agencyno">
+                    <h1>11 +</h1>
+                    <h3>years Of Experience</h3>
+                </div>
+                <div class="agencyno">
+                    <h1>120 +</h1>
+                    <h3>Clients Testimonial</h3>
+                </div>
+            </div>
+        </div>
+        <div class="tech">
+            <span># IT TECHNOLOGY</span>
+            <h2>We Deliver Solution With Goal Of Trusting Relationships</h2>
+            <div class="techno">
+                <div class="lang">
+                    <img src="image/reacticon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/viewjsicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/nodeicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/phpicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/iosicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/andriodicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/reacticon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/fluttericon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/wordpressicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/awsicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/mysqlicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/andriodicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/iosicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/fluttericon.png" alt="">
+                    <p>React s</p>
+                </div>
+            </div>
+            <button><a href="">View More <i class="fa fa-arrow-right"></i></a></button>
+        </div>
+        <div class="scroll">
+            <span># RECENTLY COMPLETED WORK </span>
+            <h2>Improve & Enhance the Tech Projects</h2>
+            <div style="overflow: hidden; padding:1rem 3rem;">
+                <div class="scroll-behave">
+                    <div class="scroll-flex">
+                        <div class="scroll-content">
+                            <img src="image/lawtendo_portfolio_for_homepage.jpg" alt="">
+                            <h1>Latwendo</h1>
+                            <p>portal/codelgintal,HTML,CSS,JAVASCRIPT</p>
+                        </div>
+                        <div class="scroll-content">
+                            <img src="image/cancari_portfolio_for_homepage.jpg" alt="">
+                            <h1>Latwendo</h1>
+                            <p>portal/codelgintal,HTML,CSS,JAVASCRIPT</p>
+                        </div>
+                    </div>
+                    <div class="scroll-flex">
+                        <div class="scroll-content">
+                            <img src="image/lawtendo_portfolio_for_homepage.jpg" alt="">
+                            <h1>Latwendo</h1>
+                            <p>portal/codelgintal,HTML,CSS,JAVASCRIPT</p>
+                        </div>
+                        <div class="scroll-content">
+                            <img src="image/cancari_portfolio_for_homepage.jpg" alt="">
+                            <h1>Latwendo</h1>
+                            <p>portal/codelgintal,HTML,CSS,JAVASCRIPT</p>
+                        </div>
+                    </div>
+                    <div class="scroll-flex">
+                        <div class="scroll-content">
+                            <img src="image/lawtendo_portfolio_for_homepage.jpg" alt="">
+                            <h1>Latwendo</h1>
+                            <p>portal/codelgintal,HTML,CSS,JAVASCRIPT</p>
+                        </div>
+                        <div class="scroll-content">
+                            <img src="image/cancari_portfolio_for_homepage.jpg" alt="">
+                            <h1>Latwendo</h1>
+                            <p>portal/codelgintal,HTML,CSS,JAVASCRIPT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tech">
+            <span># IT TECHNOLOGY</span>
+            <h2>We Deliver Solution With Goal Of Trusting Relationships</h2>
+            <div class="techno">
+                <div class="lang">
+                    <img src="image/reacticon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/viewjsicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/nodeicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/phpicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/iosicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/andriodicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/reacticon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/fluttericon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/wordpressicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/awsicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/mysqlicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/andriodicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/iosicon.png" alt="">
+                    <p>React s</p>
+                </div>
+                <div class="lang">
+                    <img src="image/fluttericon.png" alt="">
+                    <p>React s</p>
+                </div>
+            </div>
+            <button><a href="">View More <i class="fa fa-arrow-right"></i></a></button>
+        </div>
+        <div class="blogs" id="blog" data-aos="fade-up" data-aos-duration="3000">
+            <span># INSIGHT & NEWS</span>
+            <h2>Stay ahead of technology paradigm shift </h2>
+            <div class="blog">
+                <div class="blue-section"></div>
+                <div class="blog-content">
+                    <div class="blog-image">
+                        <img src="image/blog_images.jpg" alt="">
+                    </div>
+                    <div class="blog-image">
+                        <div class="box">
+                            <span>Career</span>
+                            <h3>Join Our Innovative Team and Build Your Career in Tech</h3>
+                            <p>Discover exciting career opportunities in tech with our dynamic team...</p>
+                            <h4><a href=""></a>Read More</h4>
+                        </div>
+                        <div class="box">
+                            <span>Career</span>
+                            <h3>Build Your Dream Team with Our Expert Developers</h3>
+                            <p>Get access to a range of skilled developers, including web, mobile... </p>
+                            <h4><a href=""></a>Read More</h4>
+                        </div>
+                    </div>
+                    <div class="blog-image">
+                        <div class="box">
+                            <span>Blogs</span>
+                            <h3>Stay Ahead of the Curve with Our Tech Blog </h3>
+                            <p>Our tech blog offers the latest insights, trends, and best practices in the industry... </p>
+                            <h4><a href=""></a>Read More</h4>
+                        </div>
+                        <div class="box">
+                            <span>Career</span>
+                            <h3>Cloud-Based Solutions for Modern Businesses</h3>
+                            <p>Discover exciting career opportunities in tech with our dynamic team...</p>
+                            <h4><a href=""></a>Read More</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="testinomial" id="Testinomial" data-aos="fade-up" data-aos-duration="3000">
+            <span># OUR TESTIMONIAL</span>
+            <h2>Clients Happy with Our IT Solutions.</h2>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="content d-block w-100">
+                            <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod consectetur officiis
+                                magnam nesciunt nam dolorem molestias vel cupiditate ducimus unde consequuntur, quisquam
+                                fugit! Deserunt pariatur obcaecati excepturi nulla, ipsum reprehenderit!"</p>
+                            <h4>Tarannum Malik</h4>
+                            <div class="star" style="color: orange;">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="content d-block w-100">
+                            <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod consectetur officiis
+                                magnam nesciunt nam dolorem molestias vel cupiditate ducimus unde consequuntur, quisquam
+                                fugit! Deserunt pariatur obcaecati excepturi nulla, ipsum reprehenderit!"</p>
+                            <h4>Tarannum Malik</h4>
+                            <div class="star" style="color: orange;">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="content d-block w-100">
+                            <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod consectetur officiis
+                                magnam nesciunt nam dolorem molestias vel cupiditate ducimus unde consequuntur, quisquam
+                                fugit! Deserunt pariatur obcaecati excepturi nulla, ipsum reprehenderit!"</p>
+                            <h4>Tarannum Malik</h4>
+                            <div class="star" style="color: orange;">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="contact" id="contact" data-aos="fade-up" data-aos-duration="3000">
+            <div class="details">
+                <div class="detail">
+                    <i class="fa fa-map"></i>
+                    <div class="detail-info">
+                        <h2> Location</h2>
+                        <p>Unit No. F-50, First Floor kohinoor City Mall Opp Holly Cross School, Kurla (West) Mumbai,
+                            Maharashtra - 400070. </p>
+                    </div>
+                </div>
+                <div class="detail">
+                    <i class="fa fa-envelope"></i>
+                    <div class="detail-info">
+                        <h2> Email: </h2>
+                        <p>maliktarannum@gmail.com</p>
+                    </div>
+                </div>
+                <div class="detail">
+                    <i class="fa fa-phone"></i>
+                    <div class="detail-info">
+                        <h2> Call </h2>
+                        <p><a href="tel:+0123456789">+91 0123456789</a> / <a href="tel:+0123456789">+91 0123456789</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-detail">
+                <h2>Get in touch</h2>
+                <form action="">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter Your name *"
+                        required>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter email *"
+                        required>
+                    <input type="number" class="form-control" name="number" id="number" placeholder="Enter number *"
+                        required>
+                    <input type="name" class="form-control" name="name" id="name" placeholder="Company name *" required>
+                    <textarea name="message" class="form-control" id="" cols="30" rows="6"
+                        placeholder="message "></textarea>
+
+                    <button type="submit"><a href="">Get Started</a></button>
+
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-container">
+                <h5>Development Services </h5>
+                <ul>
+                    <li><a href="">Application Development</a></li>
+                    <li><a href="">Digital Transformation</a></li>
+                    <li><a href="">Front-end Development</a></li>
+                    <li><a href="">Product Prototyping</a></li>
+                    <li><a href="">Ecommerce Deployment</a></li>
+                    <li><a href="">Cloud Solution</a></li>
+                    <li><a href="">Mobile Development</a></li>
+                </ul>
+            </div>
+            <div class="footer-container">
+                <div class="footer-box">
+                    <h5> service Models</h5>
+                    <ul>
+                        <li><a href="">Delivery Models</a></li>
+                        <li><a href="">Engagement Models</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box">
+                    <ul>
+                        <h5> Trending Service</h5>
+                        <li><a href="">Chat</a></li>
+                        <li><a href="">AI/ ML</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-container">
+                <h5>Resources</h5>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Development</a></li>
+                    <li><a href="">Certification</a></li>
+                    <li><a href="">Carrier</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-container">
+                <h5>Our Work</h5>
+                <ul>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Testinomial</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="pvt">
+            <p>©2023 NexGeno Technology Private Limited. </p>
+            <img src="image/nexgeno_logo.png" alt="">
+            <div class="pvt-box">
+                <h6>Privacy</h6>
+                <h6>policy</h6>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script>
+            AOS.init();
+        </script>
+    <script>
+        var sideNav = document.getElementById("sidenav");
+        sideNav.style.display = "none";
+        function sidebar() {
+            sideNav.style.display = sideNav.style.display === "none" ? "block" : "none";
+        }
+        const video = document.getElementById('myVideo');
+    video.playbackRate = 0.1;
+    </script>
+</body>
+
+</html>
